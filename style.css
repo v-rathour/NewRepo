@@ -1,0 +1,373 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #0A0A2A;
+    
+    
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1525361970864-7d5a27a0540f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+
+    border-bottom: 0.1px solid #bbb;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 10px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin:0px 15px;
+
+}
+
+.icon{
+    font-size: 24px;
+    color: white;
+}
+
+.icon #clone{
+
+    color: green;
+    font-size: 34px;
+}
+
+.icon #spotify{
+     
+    text-transform: capitalize;
+    
+}
+
+.search{
+    font-size: 24px;
+   
+}
+
+.search li{
+
+    margin: 0px 30px;
+}
+
+
+.search #inp {
+    padding: 0px 10px;
+    
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.search #inp input{
+    text-transform: capitalize;
+    border: none;
+    
+    
+}
+.search #inp input:focus{
+    border: none;
+}
+
+.search #inp label button{
+    font-size: 18px;
+    color: #bbb;
+    background-color: none;
+    border: none;
+    
+}
+
+.search  label{
+
+    color: white;
+}
+
+.search #profile img{
+    width: 40px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+
+@media (max-width:790px){
+
+    .search li{
+        margin: 0px 15px;
+    }
+}
+
+@media (max-width:840px){
+
+    nav ul li{
+       
+        margin: 0px 5px;
+    }
+
+    .search li{
+        margin: 0px 5px;
+    }
+}
+
+@media (max-width:590px){
+
+    .icon{
+        font-size: 18px;
+        color: white;
+    }
+
+    .icon #clone{
+        font-size: 24px;
+    }
+
+    nav ul li{
+       
+        margin: 0px 2px;
+    }
+
+    .search{
+        font-size: 16px;
+       
+    }
+
+    .search #inp{
+        padding: 3px 5px;
+    }
+}
+
+@media (max-width:400px){
+
+    nav{
+        display: block;
+    }
+
+    .search li{
+        display: block;
+        margin: 20px 0px;
+    }
+
+}
+
+
+.mainbody{
+    border: 1px solid #bbb;
+}
+
+
+.contianer{
+    display: flex;
+    width: 95%;
+    margin: 5px auto;
+    
+    
+}
+
+
+.video{
+    display: flex;
+    flex-wrap:wrap;
+    /* justify-content: space-between; */
+}
+
+.video div img{
+    width: 300px;
+    height: 220px;
+    margin: 3px;
+}
+
+.context #RT{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 2px;
+}
+
+.Onism{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+
+.box img{
+    width: 70px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    color: white;
+    font-size: 18px;
+    margin: 30px 100px;
+    margin-left:0px ;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.box #musicName{
+    margin: 0px 80px;
+    color: white;
+}
+
+.Queue{
+
+    border-left: 1px solid #bbb;
+    padding-left:30px ;
+    position: sticky;
+    top: 0px;
+    
+}
+.QueueSection{
+    
+   
+    justify-content: space-between;
+    
+    margin: 20px 0px;
+    /* position: sticky;
+    top: 50px; */
+}
+
+.card img{
+    width: 70px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    color: white;
+    margin: 20px 0px;
+    font-size: 14px;
+    
+}
+
+.card #musicName{
+    margin: 0px 60px;
+    color: white;
+} 
+
+.card .count{
+    margin-right: 10px;
+    color: darkolivegreen;
+}
+
+.Artist{
+    
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+    margin: 20px 0px;
+}
+
+.ArtistImag{
+    
+    display: flex;
+    flex-wrap: wrap;
+   color: white;
+   justify-content: space-between;
+   align-items: center;
+    
+}
+
+#art{
+    width: 100px;
+}
+
+#art img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+#art h3{
+    text-align: center;
+    font-size: 14px;
+    margin: 5px;
+    color: grey;
+}
+.name{
+    background-color: #170B3B;
+    
+    margin: 40px 0px;
+    padding: 10px;
+}
+.ArtistMusic{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#artmusic img{
+   width: 80px;
+   border-radius:50% ;
+   
+}
+.English{
+    color: white;
+    margin: 20px 0px;
+}
+.Latest_E{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+.mus{
+    width: 120px;
+    color: gray;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.mus img{
+    width: 96%;
+    border-bottom: 1px solid gray;
+}
+
+.lastElement{
+    display: flex;
+    width: 80%;
+    margin: 30px auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+.lastElement h1{
+    color: #fff;
+    margin: 10px 0px;
+}
+
+.lastElement ul li{
+    list-style: none;
+    font-size: 18px;
+    margin: 10px;
+    text-align: center;
+    color: #bbb;
+}
+
+.lastElement ul li:hover{
+
+    color: aqua;
+    cursor: pointer;
+}
